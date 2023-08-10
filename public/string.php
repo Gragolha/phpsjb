@@ -79,13 +79,20 @@ tudo bem';
     echo "O caractere no índice -2 é $string[-2].", PHP_EOL;
     $string[-3] = 'o';
     echo "Alterar o caractere no índice -3 para o dá $string.", PHP_EOL;
-
     echo "<hr>";
-
-
     $great = "fantástico";
-
     echo "isso é {$great}.";
+    echo "<hr>";
+    class foo
+    {
+        var $bar = 'I am bar.';
+    }
+    $foo = new foo();
+    $bar = 'bar';
+    $baz = array('foo', 'bar', 'baz', 'quux'); //consegue usar uma prop de uma class.
+    echo "{$foo->$bar}\n";
+    echo "{$foo->{$baz[1]}}\n"
+
     ?>
 </body>
 
