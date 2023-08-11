@@ -140,6 +140,21 @@
 
     echo $baz;    // imprime "baz"
 
+
+
+    $teste = array("cachorro", "gato", "passaro");
+
+    echo '<pre>';
+    print_r($teste);
+    echo '</pre>';
+
+    $teste[1] = "galinha";
+
+    echo '<pre>';
+    print_r($teste);
+    echo '</pre>';
+
+
     ?>
 
 
