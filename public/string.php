@@ -92,7 +92,6 @@ tudo bem';
     $baz = array('foo', 'bar', 'baz', 'quux'); //consegue usar uma prop de uma class.
     echo "{$foo->$bar}\n";
     echo "{$foo->{$baz[1]}}\n"
-
     ?>
 </body>
 
