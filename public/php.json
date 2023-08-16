@@ -1,0 +1,29 @@
+{
+    "Pre script": {
+        "prefix": "pre",
+        "body": [
+            "echo '<pre>';",
+            "print_r(${0});",
+            "echo '</pre>';",
+        ],
+        "description": "Mostra váriavel formatada"
+    },
+    "Pre-die Script": {
+        "prefix": "pred",
+        "body": [
+            "echo '<pre>';",
+            "print_r(${0});",
+            "echo '</pre>';",
+            "die;"
+        ],
+        "description": "Mostra váriavel formatada, com um die após"
+    },
+    "Echo Api": {
+        "prefix": "apic",
+        "body": [
+            "echo json_encode(${0});",
+            "die;"
+        ],
+        "description": "Encoda para Mostrar dados na api"
+    }
+}
