@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS `nome_tabela2`(
     postid INTEGER AUTOINCREMENT,
     uid INTEGER NOT NULL,
     title VARCHAR(30) UNIQUE NOT NULL,
-    text TEXT(255) NOT NULL,
+    text TEXT NOT NULL,
     PRIMARY KEY (postid),
     FOREIGN KEY (uid) REFERENCES users(uid),
 )
